@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title description">
+  <title id="title">Soheil OS Font Installer</title>
+  <desc id="description">A terminal-style font catalog with preview cards, Arabic glyphs, and safe install controls.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.58" stop-color="#0d1d2e"/>
+      <stop offset="1" stop-color="#17253a"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00f2fe" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#e3b341"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#7dd3fc" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="smallGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="560" rx="24" fill="url(#background)"/>
+  <rect width="1600" height="560" rx="24" fill="url(#grid)"/>
+  <circle cx="1450" cy="70" r="220" fill="#00f2fe" opacity="0.06"/>
+  <circle cx="300" cy="600" r="280" fill="#e3b341" opacity="0.05"/>
+  <path d="M 54 450 C 350 400, 470 500, 760 438 S 1180 330, 1548 392" fill="none" stroke="url(#cyanGlow)" stroke-width="2" opacity="0.8"/>
+
+  <g transform="translate(92 86)">
+    <text x="0" y="0" fill="#00f2fe" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5">SOHEIL OS / TYPE WORKSPACE</text>
+    <text x="0" y="86" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2">FONT</text>
+    <text x="0" y="154" fill="url(#gold)" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2">INSTALLER</text>
+    <text x="2" y="202" fill="#8b949e" font-family="Consolas, monospace" font-size="22">PREVIEW  ·  ORGANIZE  ·  INSTALL  ·  RECOVER</text>
+
+    <g transform="translate(0 270)">
+      <rect x="0" y="0" width="460" height="2" rx="1" fill="#00f2fe" opacity="0.75" filter="url(#smallGlow)"/>
+      <circle cx="12" cy="34" r="5" fill="#ff6b6b"/>
+      <circle cx="32" cy="34" r="5" fill="#e3b341"/>
+      <circle cx="52" cy="34" r="5" fill="#3fb950"/>
+      <text x="0" y="82" fill="#8b949e" font-family="Consolas, monospace" font-size="19">$ catalog --search "A Thuluth"</text>
+      <text x="0" y="119" fill="#58a6ff" font-family="Consolas, monospace" font-size="19">3 matching font families</text>
+      <text x="0" y="156" fill="#3fb950" font-family="Consolas, monospace" font-size="19">[ready] safe install scope: user</text>
+    </g>
+  </g>
+
+  <g transform="translate(720 72)">
+    <rect x="0" y="0" width="790" height="420" rx="18" fill="#0b1422" stroke="#35506b" stroke-width="2"/>
+    <rect x="1" y="1" width="788" height="54" rx="17" fill="#142338"/>
+    <circle cx="28" cy="28" r="7" fill="#ff6b6b"/>
+    <circle cx="52" cy="28" r="7" fill="#e3b341"/>
+    <circle cx="76" cy="28" r="7" fill="#3fb950"/>
+    <text x="112" y="35" fill="#8b949e" font-family="Consolas, monospace" font-size="18">Font Catalog / A Thuluth</text>
+    <text x="36" y="104" fill="#e3b341" font-family="Consolas, monospace" font-size="18">FAMILY PREVIEW</text>
+
+    <g transform="translate(30 128)">
+      <rect x="0" y="0" width="228" height="238" rx="12" fill="#141f2d" stroke="#2b4660"/>
+      <text x="18" y="34" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">A Thuluth</text>
+      <text x="18" y="72" fill="#ffe08a" font-family="Georgia, serif" font-size="46" font-weight="700">Aa</text>
+      <text x="18" y="128" fill="#e3b341" font-family="Georgia, serif" font-size="40" font-weight="700">ج ح خ</text>
+      <rect x="18" y="166" width="110" height="7" rx="3" fill="#00f2fe" opacity="0.8"/>
+      <rect x="18" y="188" width="164" height="7" rx="3" fill="#35506b"/>
+      <rect x="18" y="210" width="78" height="7" rx="3" fill="#35506b"/>
+    </g>
+
+    <g transform="translate(280 128)">
+      <rect x="0" y="0" width="228" height="238" rx="12" fill="#141f2d" stroke="#2b4660"/>
+      <text x="18" y="34" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Gofteh Heavy</text>
+      <text x="18" y="88" fill="#ffe08a" font-family="Georgia, serif" font-size="58" font-weight="700">Ab</text>
+      <text x="18" y="140" fill="#8b949e" font-family="Consolas, monospace" font-size="17">The quick fox</text>
+      <rect x="18" y="170" width="142" height="7" rx="3" fill="#e3b341" opacity="0.9"/>
+      <rect x="18" y="192" width="178" height="7" rx="3" fill="#35506b"/>
+      <rect x="18" y="214" width="96" height="7" rx="3" fill="#35506b"/>
+    </g>
+
+    <g transform="translate(530 128)">
+      <rect x="0" y="0" width="228" height="238" rx="12" fill="#141f2d" stroke="#2b4660"/>
+      <text x="18" y="34" fill="#f0f6fc" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Vazirmatn</text>
+      <text x="18" y="92" fill="#ffe08a" font-family="Georgia, serif" font-size="54" font-weight="700">Qq</text>
+      <text x="18" y="143" fill="#e3b341" font-family="Georgia, serif" font-size="31">۱۲۳۴۵۶</text>
+      <rect x="18" y="170" width="92" height="7" rx="3" fill="#3fb950" opacity="0.9"/>
+      <rect x="18" y="192" width="170" height="7" rx="3" fill="#35506b"/>
+      <rect x="18" y="214" width="120" height="7" rx="3" fill="#35506b"/>
+    </g>
+
+    <path d="M 30 390 H 758" stroke="#00f2fe" stroke-opacity="0.35"/>
+    <text x="30" y="405" fill="#58a6ff" font-family="Consolas, monospace" font-size="16">512 assets  ·  duplicate-aware  ·  undoable operations</text>
+  </g>
+</svg>
