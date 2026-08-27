@@ -7,6 +7,7 @@
     <a href="https://www.riverbankcomputing.com/software/pyqt/"><img src="https://img.shields.io/badge/PyQt5-desktop-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt5 desktop application"></a>
     <img src="https://img.shields.io/badge/Fonts-TTF_%2F_OTF-E3B341?style=for-the-badge&logo=files&logoColor=white" alt="TrueType and OpenType fonts">
     <img src="https://img.shields.io/badge/Status-active-0B2F36?style=for-the-badge&logo=github&logoColor=white" alt="Active project">
+    <a href="https://github.com/Soheil-Aghayani/font-installer/releases/latest"><img src="https://img.shields.io/badge/Download-latest_release-0A0A0A?style=for-the-badge&logo=github&logoColor=white" alt="Download the latest release"></a>
   </p>
 </div>
 
@@ -39,6 +40,10 @@ The repository includes a curated library of 512 font assets, including Persian 
 | **Safe installation** | Install to User or System scope, refuse same-name conflicts, and only report a font as already installed when it matches in the requested scope. |
 | **Recovery tools** | Back up removed files, record operations, and undo the newest reversible change without replacing files that have changed since the original operation. |
 | **Responsive feedback** | Use a persistent index, cached family metadata, batched lists, incremental catalog cards, and in-dialog progress updates. |
+
+## Download
+
+Download the latest Windows executable from the [GitHub Releases page](https://github.com/Soheil-Aghayani/font-installer/releases/latest). The release includes `installer.exe`, a self-contained build with the bundled font library.
 
 ## Run locally
 
